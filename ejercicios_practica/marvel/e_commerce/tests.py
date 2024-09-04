@@ -46,7 +46,7 @@ def test_get_comic(client):
     assert response.status_code == status.HTTP_200_OK, f'Endpoint incorrecto'
 
     data = response.json()
-   
+    
     # Comparar los valores obtenidos con el patron
     # uno por uno
     for k in comic_data:

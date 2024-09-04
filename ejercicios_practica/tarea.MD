@@ -14,7 +14,7 @@ Recuerde que no debe subir la base de datos al sistema, para ello se encuentra e
 ---
 
 ### 1. Utilizar el proyecto de "Marvel" visto en clase.
-Inicializar el contenedor de docker, compilar la imagen del repositorio con:
+Inicializar el contenedor de docker, compilar la Sssssimagen del repositorio con:
 **$** `docker-compose up`
 
 ### 2. Realizar las migraciones del sistema.
@@ -67,7 +67,7 @@ Recuerde hacer el `makemigrations` y el `migrate`.
 Haga que la nueva entidad aparezca en el administrador de Django, recuerde realizar las migraciones previamente y lo trabajado en admin.py
 
 ### 7. Completar la view llamada "get_comic_api_view()"
-Deberá compeltar una view basada en una función llamada "get_comic_api_view()", que se encuentra en el archivo "views.py" dentro de e-commerce. Esta view ya está configurada y el endpoint que se le adjudicó (la URL) es `get-comic/`.
+Deberá compeltar una view basada en una función llamada "get_comic_api_view()", que se encuentra en el archivo "views.py" dentro de e-commerce. Esta view ya está configurada y el endpoint que se le adjudó (la URL) es `get-comic/`.
 
 Lo que deberá hacer que completar esa función la cual deberá retornar el siguiente JSON:
 ```
